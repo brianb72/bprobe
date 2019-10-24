@@ -1,0 +1,51 @@
+
+                              BPROBE System Report               08/27/2002
+                                  Main Office
+                              Front Desk Computer
+
+- [ Central Processor ]
+  Vendor - AuthenticAMD      Speed - 501.1 MHz       Step - 12
+  Family - K5 and K6         Model - K6-2 w/3D Now!
+
+- [ RAM Capacity ]
+   Mapped: 97919 Mb          Bios Reported: 65535 Mb
+
+- [ I/O Ports ]
+  COM Ports - COM1 (3F8h) IRQ 4 16550A    COM2 (2F8h) IRQ 3 16550A
+  LPT Ports - LPT1 (378h) Mode ECP
+
+- [ IDE Drives ]
+  Interface      Model Name            Capacity     Type
+    Pri/Mas      ST38410A                8622mb     ATA
+    Sec/Mas      Maxtor 82100A4          2111mb     ATA
+
+- [ DOS Drive Letters ]
+  Let  Format     Free    Total    Free%     Operating System
+   C:  FAT32    5728mb   8611mb     67%      Win98SE
+   D:  FAT16     189mb   1153mb     16%
+
+- [ Logical Partitions ]
+  Drv#0  Type                Size   Drv#1  Type                Size
+  P1*    FAT32 (LBA)       8620mb   P1*    FAT16 (CHS)       1153mb
+                                    P2     Extended (LBA)     957mb
+
+  Ext#0  Type                Size   Ext#1  Type                Size
+                                    P1     FAT16 (CHS)        524mb
+                                    P2     FAT16 (CHS)        210mb
+                                    P3     FAT16 (CHS)        105mb
+                                    P4     FAT16 (CHS)        117mb
+
+- [ PCI Device List ]
+   B  D F   Class/Sub      Vendor/Device
+   0/ 0/0   Bridge         -Acer Laboratories Inc. [ALi]
+            CPU/PCI         M1541
+   0/ 1/0   Bridge         -Acer Laboratories Inc. [ALi]
+            PCI/PCI         M5243
+   0/ 7/0   Bridge         -Acer Laboratories Inc. [ALi]
+            PCI/ISA         M1533 PCI to ISA Bridge [Aladdin IV]
+   0/ 8/0   Display        -Trident Microsystems
+            VGA             TGUI 9660/968x/968x
+   0/10/0   Network        -Realtek Semiconductor Co., Ltd.
+            Ethernet        RTL-8139
+   0/15/0   Disk           -Acer Laboratories Inc. [ALi]
+            IDE             M5229 IDE

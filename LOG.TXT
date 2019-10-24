@@ -1,0 +1,113 @@
+Opened PCI.DAT version 2001h
+CPUID Test Begining, basetype 3.
+---------------------------------------------
+trycpuid() - VendorID:  1752462657 1145913699 1769238117
+trycpuid() - VendorID: AuthenticAMD   Max_Level: 1
+E820 0: 0009FC00 @ 00000000 (1)
+E820 1: 00000400 @ 0009FC00 (2)
+E820 2: 00020000 @ 000E0000 (2)
+E820 3: 03EF0000 @ 00100000 (1)
+E820 4: 00008000 @ 03FF0000 (3)
+E820 5: 00008000 @ 03FF8000 (4)
+E820 6: 00001000 @ FEC00000 (2)
+E820 7: 00001000 @ FEE00000 (2)
+E820 8: 00020000 @ FFFE0000 (2)
+E820 returned 9 entries, 66714624 bytes.
+DA88h failed.
+E801h failed.
+RAM Mapped: 66714624  Reported: 64448
+--- LPT DETECTION ---
+   Port 0 address is 378h
+guess_mode() - Port 378h is ECP emulating 0h, ECR: 15h
+   Port 1 address is 0h
+   Port 2 address is 0h
+---Serial Port Detection---
+
+  - Port 3F8h is IRQ 4  Baud 2400  Status: 8N1
+  - Port 2F8h is IRQ 3  Baud 2400  Status: 8N1
+-- Detecting IDE Drives Base 1F0h---
+[IDE 1F0h] Detecting Master
+Selecting A0h
+Success selecting.
+[IDE 1F0h] Master Detected Successfully.
+[IDE 1F0h] Detecting Slave
+Selecting B0h
+[IDE 1F0h] CheckStat Error: DRDY is clear when it should not be!
+[IDE 1F0h 176] Drive Failed to Select - Nonexistant?
+[IDE 1F0h] Error Detecting Slave.
+ 
+ 
+-- Detecting IDE Drives Base 170h---
+[IDE 170h] Detecting Master
+Selecting A0h
+[IDE 170h] CheckStat Error: DRDY is clear when it should not be!
+[IDE 170h 160] Drive Failed to Select - Nonexistant?
+[IDE 170h] Error Detecting Master.
+[IDE 170h] Detecting Slave
+Selecting B0h
+[IDE 170h 176] Drive Failed to Select - Nonexistant?
+[IDE 170h] Error Detecting Slave.
+ 
+ 
+--- BIOS Drives Initalizing ---
+Scanning Bios Drives...
+Bios reports 1 drives.
+Drive 80h has LBA extensions   Major: 21h  Extended: 00h  API: 05h.
+GetExtendedDriveParam - Drive: 80h  Capacity: 8622
+  cylinders 0  heads 0  sectors 0  info 0h
+total sectors 100FBC0h  calculated capacity 8622
+Sector per Track: 512
+Drive 80h has 1 partitions in MBR
+Drive 81h has no LBA extensions, carry set.
+GetNonExtendedDriveParam - 81h Carry flag set! Operation failed.
+Drive 82h has no LBA extensions, carry set.
+GetNonExtendedDriveParam - 82h Carry flag set! Operation failed.
+Drive 83h has no LBA extensions, carry set.
+GetNonExtendedDriveParam - 83h Carry flag set! Operation failed.
+Drive 84h has no LBA extensions, carry set.
+GetNonExtendedDriveParam - 84h Carry flag set! Operation failed.
+Drive 85h has no LBA extensions, carry set.
+GetNonExtendedDriveParam - 85h Carry flag set! Operation failed.
+Drive 86h has no LBA extensions, carry set.
+GetNonExtendedDriveParam - 86h Carry flag set! Operation failed.
+Drive 87h has no LBA extensions, carry set.
+GetNonExtendedDriveParam - 87h Carry flag set! Operation failed.
+Drive 88h has no LBA extensions, carry set.
+GetNonExtendedDriveParam - 88h Carry flag set! Operation failed.
+ 
+--- Logical Drives Initalizing ---
+Scanning Drive Letters ...
+CD Check - MSCDEX is NOT installed.
+ScanDrvLetters - C Free Space 2074173440
+Drive C is FAT32
+ 
+GetLetterFreeSpace - D returned 000Fh
+ 
+ 
+--- Attempting to Guess OS Version ---
+MSDOS.SYS Version String: 4.10.2222
+Command.Com is 93890 bytes.
+ 
+Begining PCI Bus Scan
+---------------------
+Found device b: 0 d: 0 f: 0  10B9h 1541h
+Found device b: 0 d: 1 f: 0  10B9h 5243h
+Found device b: 0 d: 7 f: 0  10B9h 1533h
+Found device b: 0 d: 8 f: 0  1023h 9660h
+Found device b: 0 d: 8 f: 1  1023h 9660h
+Found device b: 0 d: 8 f: 2  1023h 9660h
+Found device b: 0 d: 8 f: 3  1023h 9660h
+Found device b: 0 d: 8 f: 4  1023h 9660h
+Found device b: 0 d: 8 f: 5  1023h 9660h
+Found device b: 0 d: 8 f: 6  1023h 9660h
+Found device b: 0 d: 8 f: 7  1023h 9660h
+Found device b: 0 d: 10 f: 0  10ECh 8139h
+Found device b: 0 d: 10 f: 1  10ECh 8139h
+Found device b: 0 d: 10 f: 2  10ECh 8139h
+Found device b: 0 d: 10 f: 3  10ECh 8139h
+Found device b: 0 d: 10 f: 4  10ECh 8139h
+Found device b: 0 d: 10 f: 5  10ECh 8139h
+Found device b: 0 d: 10 f: 6  10ECh 8139h
+Found device b: 0 d: 10 f: 7  10ECh 8139h
+Found device b: 0 d: 15 f: 0  10B9h 5229h
+Found 6 devices.
